@@ -47,7 +47,7 @@ def disp(user_ch, comp_ch, winner):
     else:
         print("You lose!")
 
-#Defining the main function, which willl be the entry point of the program including the previous functions
+#Defining the main function, which will be the entry point of the program including the previous functions
 def main():
     #Initializing score counters for both user and computer
     comp_s = 0
@@ -88,7 +88,7 @@ def main():
     print("\nThank you for playing! Final scores are: ")
     print(f"You: {user_s}, Computer: {comp_s}")
 
-#The script now defined all the functions but willl not execute the Game program
+#The script now defined all the functions but will not execute the Game program
 #Now we need to call our "main()" function, wich contains the logic to work
 #Directly call the main function to interact with the user and perform algorithms
 main()
